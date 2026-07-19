@@ -1,6 +1,6 @@
-# Mentava × Sikkim Phonics
+# Sikkim Phonics
 
-A single-page website for the Mentava × Sikkim Phonics Initiative.
+A single-page website for the Sikkim Phonics Initiative.
 
 ## Preview locally
 
