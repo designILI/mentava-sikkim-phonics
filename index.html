@@ -76,6 +76,13 @@
 
   p { max-width: 40rem; }
   p + p { margin-top: 1.4rem; }
+  .text-link {
+    color: inherit;
+    text-decoration-color: var(--saffron);
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  .text-link:hover, .text-link:focus-visible { color: var(--terracotta); }
 
   /* ---------- Layout ---------- */
   .section {
@@ -416,30 +423,6 @@
     line-height: 1.6;
   }
 
-  /* ---------- Teachers ---------- */
-  .teacher-cta-card {
-    margin-top: 3rem;
-    background: rgba(245, 239, 224, 0.07);
-    border: 1px solid rgba(245, 239, 224, 0.25);
-    border-radius: 4px;
-    padding: 2.4rem 2rem;
-    text-align: center;
-  }
-  .teacher-cta-card a {
-    font-family: 'DM Sans', sans-serif;
-    font-weight: 700;
-    font-size: 1.1rem;
-    color: var(--saffron);
-    text-decoration: none;
-    border-bottom: 2px solid var(--saffron);
-    padding-bottom: 3px;
-    transition: color 0.2s ease, border-color 0.2s ease;
-  }
-  .teacher-cta-card a:hover, .teacher-cta-card a:focus-visible {
-    color: #F0AF3A;
-    border-color: #F0AF3A;
-  }
-
   /* ---------- Footer ---------- */
   footer {
     display: grid;
@@ -519,7 +502,7 @@
     <div class="reveal">
       <p>In many classrooms in Sikkim, a child's first meeting with English is a letter name: A, B, C — sounds that appear in almost no English word. Some children are taught "B says buh." Many are taught no sounds at all. Either way, the material reading is actually built from — the pure sounds of the language — is missing from the very first lesson.</p>
       <p>This is not a failure of effort. Teachers in Sikkim work with extraordinary dedication, often in multiple languages, often without training materials that match their students' reality. The tools have simply not existed for this context.</p>
-      <p>Mentava's Alphabet Sounds book was created to fix the foundation: the 44 phonemes of English — not the 26 letter names — taught with precision, warmth, and visual richness. Our Phoneme-abet Book builds on it for Sikkim, and leaves space on every page for readers to add words from their own languages, so the sounds belong here from the very first day.</p>
+      <p><a class="text-link" href="https://drive.google.com/file/d/1e0fReCwkKV9ZoN9KG6h8h3cM683v9BRw/view?usp=sharing" target="_blank" rel="noopener noreferrer">Mentava's Alphabet Sounds book</a> was created to fix the foundation: the 44 phonemes of English — not the 26 letter names — taught with precision, warmth, and visual richness. Our Phoneme-abet Book builds on it for Sikkim, and leaves space on every page for readers to add words from their own languages, so the sounds belong here from the very first day.</p>
     </div>
     <div class="reveal" style="margin-top: 4.5rem;">
       <blockquote class="pullquote">"A book about sounds should leave room for every language in the room."</blockquote>
@@ -678,8 +661,7 @@
     <div class="funder-card reveal">
       <div class="contribute-action">
         <p>Have a word to contribute? Send it to the project team. Please include the language, the word, and the sound it begins with—or tell us which English word is difficult to hear or say.</p>
-        <!-- Replace this mailto URL with the published Google Form URL when it is ready. -->
-        <a class="cta-btn" href="mailto:hello@mentavasikkim.org?subject=Word%20contribution%20for%20the%20Phoneme-abet%20Book&body=Your%20name%3A%0ALanguage%28s%29%3A%0A%0ALocal%20words%20and%20their%20starting%20sounds%3A%0A%0AEnglish%20words%20that%20are%20hard%20to%20say%20or%20hear%3A%0A">Share your words &rarr;</a>
+        <a class="cta-btn" href="https://forms.gle/3PbDEyP9mtvJujnZ6" target="_blank" rel="noopener noreferrer">Share your words &rarr;</a>
       </div>
       <div class="project-details">
         <div class="detail">
@@ -714,9 +696,6 @@
       <p style="color: rgba(245,239,224,0.9);">You already know what it takes to hold a classroom in three languages. You already know how to reach a child who is bored, or frightened, or distracted. What this curriculum adds is one simple thing: a way to make English sounds clear — for yourself first, and then for your students.</p>
       <p style="color: rgba(245,239,224,0.9);">You do not need to be a native English speaker. You do not need years of phonics training. You need a phone, a QR code, and a willingness to listen before you teach. The audio clips do the modeling. The guide does the explaining. Your relationship with your students does the rest.</p>
       <p style="color: rgba(245,239,224,0.9);">We designed every part of this curriculum assuming that the most important person in the room is you — not the book, not the app, not the songs. Those are tools. You are the teacher.</p>
-    </div>
-    <div class="teacher-cta-card reveal">
-      <a href="mailto:hello@mentavasikkim.org?subject=Teacher%20information%20pack">Request a teacher information pack →</a>
     </div>
   </div>
 </section>
